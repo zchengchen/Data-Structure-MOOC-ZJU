@@ -15,8 +15,8 @@ int vis[1010];
 
 void bfs(int v)
 {
-	memset(vis,0,sizeof(vis));	
-	queue<int> q;
+    memset(vis,0,sizeof(vis));	
+    queue<int> q;
     vis[v] = 1;
     q.push(v);
  
@@ -37,7 +37,7 @@ void bfs(int v)
                 }
             }
         }
- 	}
+    }
 }
 
 int main(void)
